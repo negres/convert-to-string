@@ -112,6 +112,6 @@ footer a:hover {
   }
 
   footer {
-    margin-top: 40px;
+    display: none;
   }
 }
