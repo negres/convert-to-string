@@ -100,6 +100,11 @@ footer a:hover {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 600px) {
+
+  header .title {
+    font-size: 32px;
+  }
+
   .textarea-input {
     margin: 0 auto;
     min-height: 75px;
@@ -111,7 +116,7 @@ footer a:hover {
     width: 90%;
   }
 
-  footer {
+  footer a {
     display: none;
   }
 }
