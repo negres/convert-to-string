@@ -108,6 +108,7 @@ footer a:hover {
   .textarea-input {
     margin: 0 auto;
     min-height: 75px;
+    padding: 10px;
     width: 90%;
   }
 
