@@ -28,7 +28,7 @@ header .title {
 
 .textarea-input {
   border-radius: 10px;
-  padding: 10px;
+  min-height: 75px;
 }
 
 .container-buttons {
@@ -95,4 +95,19 @@ footer a {
 
 footer a:hover {
   color: #D3F70C;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+  .textarea-input {
+    margin: 0 auto;
+    min-height: 75px;
+    width: 90%;
+  }
+
+  .container-buttons {
+    margin: 0 auto;
+    width: 90%;
+  }
 }
